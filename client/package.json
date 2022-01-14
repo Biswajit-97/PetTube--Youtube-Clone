@@ -1,0 +1,43 @@
+{
+  "name": "pettube-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/menu-button": "^0.12.1",
+    "axios": "^0.21.1",
+    "date-fns": "^2.16.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-error-boundary": "^3.1.0",
+    "react-google-login": "^5.1.25",
+    "react-query": "^2.26.4",
+    "react-query-devtools": "^2.6.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-simple-snackbar": "^1.1.10",
+    "styled-components": "^5.1.1",
+    "video.js": "^7.8.3"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
